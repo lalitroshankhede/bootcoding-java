@@ -12,7 +12,7 @@ public class Harmonic_Series {
 
          }
 
-        System.out.println("Harmonic_Series Result is : "+sum);
+        System.out.println("Harmonic_Series is : "+sum);
     }
 
 }
