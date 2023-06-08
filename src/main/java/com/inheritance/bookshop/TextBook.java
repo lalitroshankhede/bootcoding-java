@@ -8,6 +8,7 @@ public class TextBook extends Book{
     void dispTextBook()
     {
         dispBoodInfo();
+        getPublishDateAndbookType();
         System.out.println("Text Book Name :"+text_book_name);
         System.out.println("Text Book Price :"+text_book_price);
     }

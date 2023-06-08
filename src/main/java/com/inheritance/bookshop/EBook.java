@@ -8,6 +8,7 @@ public class EBook extends  Book{
     void dispEBook()
     {
         dispBoodInfo();
+        getPublishDateAndbookType();
         System.out.println(" EBook Name :"+ebook_name);
         System.out.println(" EBook Price :"+ebook_price);
     }
