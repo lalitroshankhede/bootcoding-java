@@ -13,5 +13,10 @@ public class Marker extends Pen {
         mr.childMethod();
 
 
+
+        System.out.println(p instanceof Marker);
+
+
+
     }
 }
