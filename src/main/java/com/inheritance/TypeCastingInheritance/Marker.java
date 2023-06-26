@@ -1,4 +1,4 @@
-package com.inheritance.demo;
+package com.inheritance.TypeCastingInheritance;
 
 public class Marker extends Pen {
     public void childMethod() {

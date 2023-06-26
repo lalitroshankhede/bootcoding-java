@@ -1,4 +1,4 @@
-package com.inheritance.demo;
+package com.inheritance.TypeCastingInheritance;
 
 public class Pen {
     public void parentMethod() {

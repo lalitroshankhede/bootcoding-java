@@ -5,14 +5,14 @@ public class MainMethod {
     public static void main(String[] args) {
 
 
-        WristWatch wristWatch=new WristWatch();
-        Watch watch=wristWatch;  // object of wristWatch assign to Watch
-        WristWatch wristWatch1=(WristWatch) watch;
-        WallWatch wallWatch=new WallWatch();
-        Watch watch1=wallWatch;  //object of wallWatch assign to watch
-        WallWatch wallWatch1=(WallWatch) watch1;
+        WristWatch wristWatch = new WristWatch();
+        Watch watch = wristWatch;  // object of wristWatch assign to Watch
+        WristWatch wristWatch1 = (WristWatch) watch;
+        WallWatch wallWatch = new WallWatch();
+        Watch watch1 = wallWatch;  //object of wallWatch assign to watch
+        WallWatch wallWatch1 = (WallWatch) watch1;
 
-     // WallWatch wallWatch2=wristWatch;    //  trying to assign WristWatch object to WallWatch
+        // WallWatch wallWatch2=wristWatch;    //  trying to assign WristWatch object to WallWatch
 
         watch.getWatch();
         ((WristWatch) watch).wristWatch();
@@ -24,7 +24,8 @@ public class MainMethod {
 
         System.out.println("==============");
 
-        wallWatch.getWatch();;
+        wallWatch.getWatch();
+        ;
         wallWatch.wallWatch();
 
         System.out.println("=============");
