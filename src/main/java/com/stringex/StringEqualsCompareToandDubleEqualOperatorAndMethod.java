@@ -1,6 +1,6 @@
 package com.stringex;
 
-public class StringPractice {
+public class StringEqualsCompareToandDubleEqualOperatorAndMethod {
 
 
     //Note : The java.lang.String class implements Serializable, Comparable and CharSequence interfaces.
@@ -59,6 +59,9 @@ public class StringPractice {
 //        String str2=new String(" Roshankhede");
 //        String str3=String.join("",str1,str2);  //String.join mehtod introduce in Java 8+ version
 //        System.out.println(str3);
+
+
+
 
 
 
