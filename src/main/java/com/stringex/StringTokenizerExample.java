@@ -40,9 +40,8 @@ public class StringTokenizerExample {
 //        }
 
         //5. countTokens()
-        StringTokenizer str=new StringTokenizer("my name is lalit");
-
-            System.out.println(str.countTokens()); // this method calculates the number of tokens present in the tokenizer String.
-
+//        StringTokenizer str=new StringTokenizer("my name is lalit");
+//
+//            System.out.println(str.countTokens()); // this method calculates the number of tokens present in the tokenizer String.
     }
 }
