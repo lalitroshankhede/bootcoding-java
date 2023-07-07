@@ -1,6 +1,6 @@
 package com.stringex;
 
-public class StringAllMethodsExample {
+public class StringAllBaiscMethodsExample {
 
     public static void main(String[] args) {
 
