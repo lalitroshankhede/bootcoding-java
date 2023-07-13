@@ -5,6 +5,8 @@ public class Banner {
     String matter;
     double price;
 
+
+
     Banner(){
         System.out.println("Banner object is created");
     }
