@@ -1,4 +1,4 @@
-package BasicDatatypeConditionArrayStringConcepts.datatypeex;
+package comTwo.objectorientedjava.QuizQuestion;
 
 public class Demo {
 
