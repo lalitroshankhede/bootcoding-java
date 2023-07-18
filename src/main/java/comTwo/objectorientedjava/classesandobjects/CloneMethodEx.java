@@ -22,7 +22,7 @@ public class CloneMethodEx implements Cloneable {
         try {
             CloneMethodEx obj=new CloneMethodEx(1001,"Rajat");
 
-            CloneMethodEx obj2=(CloneMethodEx)obj.clone();   //
+            CloneMethodEx obj2=(CloneMethodEx)obj.clone();   // cloning object from object of CloneMethodEx to anther object
 
             System.out.println("Roll No="+obj.roll+" "+"Name= "+obj.name);
             System.out.println("Roll No="+obj2.roll+" "+"Name= "+obj2.name);
