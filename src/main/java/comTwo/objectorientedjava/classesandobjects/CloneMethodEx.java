@@ -24,8 +24,8 @@ public class CloneMethodEx implements Cloneable {
 
             CloneMethodEx obj2=(CloneMethodEx)obj.clone();   //
 
-            System.out.println(obj.roll+" "+obj.name);
-            System.out.println(obj2.roll+" "+obj2.name);
+            System.out.println("Roll No="+obj.roll+" "+"Name= "+obj.name);
+            System.out.println("Roll No="+obj2.roll+" "+"Name= "+obj2.name);
 
         }
         catch (CloneNotSupportedException e)
