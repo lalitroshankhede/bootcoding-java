@@ -3,30 +3,21 @@ package BasicDatatypeConditionArrayStringConcepts.datatypeex;
 import java.util.*;
 
 
-class A
-{
-    private  void msg()
-    {
-        System.out.println("Hello");
-    }
-    private void getInfo()
-    {
-        System.out.println("Get Info Method");
-    }
 
-}
-
-public class Datatype extends A
+public class Datatype
 {
-    void  msg()
-    {
-        System.out.println("Hello Datatype class");
-    }
+
 
     public static void main(String[] args) {
 
-        Datatype obj=new Datatype();
+        Scanner input=new Scanner(System.in);
 
-        obj.msg();
+        int principle=input.nextInt();
+        float rate=input.nextFloat();
+        int time=input.nextInt();
+
+        int intrest= (int) (principle*rate*time/100);
+
+        System.out.println(intrest);
     }
 }
