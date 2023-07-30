@@ -8,16 +8,34 @@ public class Datatype
 {
 
 
-    public static void main(String[] args) {
+    public static void main(String args[]) {
+
+        // Write code here
 
         Scanner input=new Scanner(System.in);
 
-        int principle=input.nextInt();
-        float rate=input.nextFloat();
-        int time=input.nextInt();
+        int fact=1;
+        int num=input.nextInt();
 
-        int intrest= (int) (principle*rate*time/100);
+        if(num>=0)
+        {
+            while(num!=0)
+            {
+                fact=fact*num;
 
-        System.out.println(intrest);
+                num--;
+            }
+
+
+            System.out.println(fact);
+
+        }
+        else
+
+        {
+            System.out.println("Error");
+        }
+
+
     }
 }
