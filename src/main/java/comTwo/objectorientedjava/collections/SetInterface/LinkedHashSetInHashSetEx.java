@@ -18,6 +18,11 @@ public class LinkedHashSetInHashSetEx {
         System.out.println(list);    //to print  insertion list means same as Insertion Input values
 
 
+        //remove element from LinkedHashSet
+
+        list.remove("Banana");
+
+        System.out.println(list);
 
     }
 }
