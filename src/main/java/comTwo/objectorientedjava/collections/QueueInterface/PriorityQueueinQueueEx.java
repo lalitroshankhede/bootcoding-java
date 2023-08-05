@@ -6,6 +6,7 @@ public class PriorityQueueinQueueEx {
 
     public static void main(String[] args) {
 
+        // IMP Note : In Queue Operation the Insertion of Element from End of List and Remove element from Beginning of the List.
         PriorityQueue<Integer> list=new PriorityQueue<Integer>();
         System.out.println(list);
         list.add(30);
@@ -22,7 +23,6 @@ public class PriorityQueueinQueueEx {
 
         list.remove();  //it removes first Head element of queue
         System.out.println(list);
-
 
         list.poll();  //it is used to retrieve and remove the head of this queue or returns null if queue is empty.
         System.out.println(list);
