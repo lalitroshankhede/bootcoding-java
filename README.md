@@ -2,6 +2,35 @@
 
 This repository contains a collection of basic core Java programs for practice. These programs cover fundamental concepts and are designed to help you improve your understanding of Java programming. Each program is accompanied by a detailed explanation and comments to guide you through the code.
 
+## Contents
+1. Basics of Java
+2. Class, Object, and Types of classes
+3. Packages in Java
+4. Data types in Java
+5. Variables, Constants, and Literals
+6. Methods in Java
+7. Constructor in Java
+8. Modifiers in Java
+9. Static,Final,This,Super Keyword
+10. Inner Class in Java
+11. OOPs concepts
+12. Encapsulation
+13. Inheritance
+14. Polymorphism
+15. Abstraction
+16. Garbage Collection
+17. Input Output Stream
+18. Collections Framework
+19. Serialization
+20. Exception Handling in Java
+21. Java Annotations
+22. Java Array
+23. String, String Buffer, String Builder
+24. Java Thread 
+ 
+
+
+
 ## Getting Started
 
 To get started with the core Java practice, follow the instructions below:
